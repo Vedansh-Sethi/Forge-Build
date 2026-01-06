@@ -9,8 +9,9 @@ html {
 }
 
 body {
-    border: 5px solid black;
+  border: 5px solid black;
   align-self: center;
+  line-height: 1.6;
 }
 
 header {
@@ -36,6 +37,7 @@ main {
 
 .introduction {
   display: flex;
+  align-items: center;
 }
 
 .about {
@@ -65,94 +67,71 @@ img {
   gap: 5px;
 }
 
-.hephaestus {
-  background-color: powderblue;
-}
-
-.hephaestus h3 {
-  margin-top: 0;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  background-color: rgb(56, 216, 237);
-}
-
-.verto {
-  background-color: rgb(157, 181, 204);
-}
-
-.verto h3 {
-  margin-top: 0;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  background-color: rgb(116, 159, 200);
-}
-
-.TMI {
+.project {
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   background-color: paleturquoise;
 }
 
-.TMI h3 {
+.project h3 {
+  padding-left: 8px;
   margin-top: 0;
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: rgb(116, 230, 230);
 }
 
-.project {
-  border-radius: 5px;
-  margin-bottom: 8px;
+.project p {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.projectsList {
+  padding: 8px;
+}
+
+nav {
+  display: flex;
+}
+
+nav {
+  background-color: bisque;
   border: 2px solid black;
 }
 
-.project h3 {
-  padding-left: 8px;
-}
-
-.project p {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-nav {
-    display: flex;
-}
-
-nav {
-    background-color: bisque;
-    border: 2px solid black;
-}
-
 nav ul {
-    padding-left: 4px;
-    display: flex;
-    list-style: none;
-    flex-flow: row wrap;
-    gap: 10px;
-    margin: 0;
+  padding-left: 4px;
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  gap: 10px;
+  margin: 0;
 }
 
 nav h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-    align-content: center;
-    background-color: black;
-    color: white;
-    height: 50px;
-    padding-left: 8px;
-    padding-right: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 nav li {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 nav a {
-    text-decoration: none;    
+  text-decoration: none;
 }
 
 nav li:focus,
 nav li:hover {
-    margin-top: 3px;
-    font-size: 20px;
-    background-color: rgb(242, 184, 96);
+  margin-top: 3px;
+  font-size: 20px;
+  background-color: rgb(242, 184, 96);
+  padding: 8px;
 }
