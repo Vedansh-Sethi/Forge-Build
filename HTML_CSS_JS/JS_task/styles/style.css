@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: white;
+    --button-background-color: wheat;
+    --button-border-color: brown;
+    --header-background-color: white;
+    --heading-color: black;
+    --form-background-color: white;
+    --form-font-color: black;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 30px;
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+header {
+    background-color: var(--header-background-color);
+    margin: 0 0;
+    padding-left: 8px;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#form_container {
+    display: none;
+    background-color: var(--form-background-color);
+    color: var(--form-font-color);
+    padding: 8px 16px;
+    margin-top: 8px;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 5px;
+    background-color: var(--button-background-color);
+    border: 3px solid var(--button-border-color);
+} 
+
+#output {
+    display: none;
+    padding: 8px 8px;
+    background-color: var(--background-color);
+    color: var(--heading-color);
+    white-space: pre-wrap;
+}
